@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio-Matthieu-LEAUTHAUD/static/css/main.a6c30834.css",
-    "main.js": "/Portfolio-Matthieu-LEAUTHAUD/static/js/main.65646283.js",
-    "static/media/portfolio-img2.png": "/Portfolio-Matthieu-LEAUTHAUD/static/media/portfolio-img2.d80e3fc7e2231cffbbd7.png",
-    "static/media/avatarMoi.svg": "/Portfolio-Matthieu-LEAUTHAUD/static/media/avatarMoi.1aca8d555f9a86a7f732774e0b91ba79.svg",
-    "static/media/portfolio-img3.png": "/Portfolio-Matthieu-LEAUTHAUD/static/media/portfolio-img3.e2bf250541b961cca642.png",
-    "static/media/about.png": "/Portfolio-Matthieu-LEAUTHAUD/static/media/about.ea8638fea9ee0b4b73fa.png",
-    "static/media/site-bg.jpg": "/Portfolio-Matthieu-LEAUTHAUD/static/media/site-bg.54724d703024833ef9c6.jpg",
-    "static/media/portfolio-img1.png": "/Portfolio-Matthieu-LEAUTHAUD/static/media/portfolio-img1.65b23e5c313b18600f24.png",
-    "static/media/services.png": "/Portfolio-Matthieu-LEAUTHAUD/static/media/services.3b3d7b54820e5a4d898b.png",
-    "static/media/logoM.svg": "/Portfolio-Matthieu-LEAUTHAUD/static/media/logoM.034b7fcb947506aef4bdcb0b57f66dac.svg",
-    "index.html": "/Portfolio-Matthieu-LEAUTHAUD/index.html",
-    "main.a6c30834.css.map": "/Portfolio-Matthieu-LEAUTHAUD/static/css/main.a6c30834.css.map",
-    "main.65646283.js.map": "/Portfolio-Matthieu-LEAUTHAUD/static/js/main.65646283.js.map"
+    "main.css": "/portfolio/static/css/main.a4196df9.css",
+    "main.js": "/portfolio/static/js/main.dc1cf44a.js",
+    "static/media/portfolio-img2.png": "/portfolio/static/media/portfolio-img2.d80e3fc7e2231cffbbd7.png",
+    "static/media/avatarMoi.svg": "/portfolio/static/media/avatarMoi.1aca8d555f9a86a7f732774e0b91ba79.svg",
+    "static/media/portfolio-img3.png": "/portfolio/static/media/portfolio-img3.e2bf250541b961cca642.png",
+    "static/media/about.png": "/portfolio/static/media/about.ea8638fea9ee0b4b73fa.png",
+    "static/media/site-bg.jpg": "/portfolio/static/media/site-bg.54724d703024833ef9c6.jpg",
+    "static/media/portfolio-img1.png": "/portfolio/static/media/portfolio-img1.65b23e5c313b18600f24.png",
+    "static/media/services.png": "/portfolio/static/media/services.3b3d7b54820e5a4d898b.png",
+    "static/media/logoM.svg": "/portfolio/static/media/logoM.034b7fcb947506aef4bdcb0b57f66dac.svg",
+    "index.html": "/portfolio/index.html",
+    "main.a4196df9.css.map": "/portfolio/static/css/main.a4196df9.css.map",
+    "main.dc1cf44a.js.map": "/portfolio/static/js/main.dc1cf44a.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6c30834.css",
-    "static/js/main.65646283.js"
+    "static/css/main.a4196df9.css",
+    "static/js/main.dc1cf44a.js"
   ]
 }
