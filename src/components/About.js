@@ -43,7 +43,7 @@ const About = () => {
           <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
             <div>
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                {inView ? <CountUp start={0} end={3} duration={2} /> : 
+                {inView ? <CountUp start={0} end={1} duration={2} /> : 
                 null}
               </div>
               <div className='font-primary text-sm tracking-[2px]'>
@@ -53,7 +53,7 @@ const About = () => {
             </div>
             <div>
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                {inView ? <CountUp start={0} end={4} duration={2} /> : 
+                {inView ? <CountUp start={0} end={2} duration={2} /> : 
                 null}
               </div>
               <div className='font-primary text-sm tracking-[2px]'>
@@ -65,7 +65,7 @@ const About = () => {
           <div className='flex gap-x-8 items-center'>
             <button className='btn btn-lg'>Me contacter</button>
             <a href="#" className='text-gradient btn-link'>
-              Mon Portfolio
+              Consulter mon CV
             </a>
           </div>
         </motion.div>

@@ -9,19 +9,19 @@ import { fadeIn } from '../variants';
 //services data
 const services = [
   {
-    name:'UI/UX Design',
+    name:'Formation acquise',
     description:
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolor odit suscipit reprehenderit nemo quo et ducimus maxime ut?',
     link: 'En apprendre plus',
   },
   {
-    name:'Developement',
+    name:'Formation en cours',
     description:
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolor odit suscipit reprehenderit nemo quo et ducimus maxime ut?',
     link: 'En apprendre plus',
   },
   {
-    name:'Digital Marketing',
+    name:'Stages',
     description:
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolor odit suscipit reprehenderit nemo quo et ducimus maxime ut?',
     link: 'En apprendre plus',
