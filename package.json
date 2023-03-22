@@ -1,6 +1,6 @@
 {
-  "homepage": "https://MatthieuLthd.github.io/Portfolio-Matthieu-LEAUTHAUD",
-  "name": "Portfolio",
+  "homepage": "https://MatthieuLthd.github.io/portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,6 +40,7 @@
   },
   "devDependencies": {
     "framer-motion": "^8.4.3",
+    "gh-pages": "^5.0.0",
     "react-countup": "^6.4.0",
     "react-icons": "^4.7.1",
     "react-intersection-observer": "^9.4.1",
