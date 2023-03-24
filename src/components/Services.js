@@ -44,7 +44,7 @@ const Services = () => {
             <h3 className='h3 max-w-[600px] mb-16'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quibusdam.
             </h3>
-            <button className='btn btn-sm'>Voir mon travail</button>
+            <button className='btn btn-sm'>Lorem, ipsum.</button>
           </motion.div>
           {/* services */}
           <motion.div 

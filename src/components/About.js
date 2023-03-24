@@ -7,6 +7,8 @@ import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 // variant
 import { fadeIn } from '../variants';
+// links
+import { Link } from 'react-scroll';
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -15,14 +17,14 @@ const About = () => {
   return(
   <section className='section' id='about' ref={ref}>
     <div className='container mx-auto'>
-      <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen'>
+      <div className='flex flex-col gap-y-15 lg:flex-row lg:items-center lg:gap-x-5 lg:gap-y-0 h-screen flex flex-col lg:flex-row'>
         {/* image */}
         <motion.div
         variants={fadeIn('right', 0.3)}
         initial="hidden"
         whileInView={"show"}
         viewport={{once: false, amount: 0.3}}
-        className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'></motion.div>
+        className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top border-radius-50' id="imgAbout"></motion.div>
         {/* text */}
         <motion.div
         variants={fadeIn('left', 0.5)}
@@ -64,7 +66,13 @@ const About = () => {
           </div>
           <div className='flex gap-x-8 items-center'>
             <button className='btn btn-lg'>Me contacter</button>
-            <a href="#" className='text-gradient btn-link'>
+            <Link to='contact' 
+            activeClass='active'
+            smooth = {true}
+            spy = {true}
+            className=''>
+            </Link>
+            <a href="https://docs.google.com/document/d/e/2PACX-1vSKlOb70NFdjQ3ZMs_Xwz46ApVSjCn2NwTc17gAgbJ6eDh-Cn4NZuBQDt1lezWY13X2pgtPy8ln7OXH/pub" className='text-gradient btn-link'>
               Consulter mon CV
             </a>
           </div>

@@ -76,3 +76,7 @@ iframe{
     display: none;
   }
 }
+
+#imgAbout{
+  border-radius: 80%;
+}
