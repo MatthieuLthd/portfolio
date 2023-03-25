@@ -21,8 +21,8 @@ const Work = () => {
             {/* text */}
             <div>
                 <h2 className='h2 leading-tight text-accent'>
-                  Mon dernier <br />
-                  travail.
+                  Mes <br />
+                  porjets.
                 </h2>
                 <p className='max-w-sm mb-16'>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit tempora facere odio accusamus aspernatur minima eius minus sed voluptatum corporis.

@@ -6,28 +6,6 @@ import {motion} from 'framer-motion'
 // variants
 import { fadeIn } from '../variants';
 
-//services data
-const services = [
-  {
-    name:'Formation acquise',
-    description:
-    'Bac Général options NSI & Maths obtenu avec mention Bien Etablissement : Lycée Violet Le Duc - Villiers St-Fréderic',
-    link: 'En apprendre plus',
-  },
-  {
-    name:'Formation en cours',
-    description:
-    'BTS SIO option SLAM (Solution logiciels et applications métier) Etablissement : Lycée Jean Vilar - Plaisir',
-    link: 'En apprendre plus',
-  },
-  {
-    name:'Stages',
-    description:
-    '',
-    link: 'En apprendre plus',
-  }
-]
-
 const Services = () => {
   return(
     <div className='section' id='services'>
@@ -60,8 +38,8 @@ const Services = () => {
                 <div className='border-b border-white/20 h-[146px] mb-[38px] flex'>
                   <div className='max-w-[476px]'>
                     <h4 className='text-[20px tracking-wider font-primary font-semibold mb-6]'>Formation acquise</h4>
-                    <p className='font-secondary leading-tight'>
-                      Bac Général options NSI & Maths obtenu avec mention Bien Etablissement : Lycée Violet Le Duc - Villiers St-Fréderic
+                    <p className='font-secondary leading-tight mt-4'>
+                    <b>Bac Général</b> options <b>NSI</b> & <b>Maths</b> obtenu avec mention <b>Bien</b> Etablissement : Lycée Violet Le Duc - Villiers St-Fréderic
                     </p>
                   </div>
                   <motion.div
@@ -80,8 +58,8 @@ const Services = () => {
                 <div className='border-b border-white/20 h-[146px] mb-[38px] flex'>
                   <div className='max-w-[476px]'>
                     <h4 className='text-[20px tracking-wider font-primary font-semibold mb-6]'>Formation en cours</h4>
-                    <p className='font-secondary leading-tight'>
-                    BTS SIO option SLAM (Solution logiciels et applications métier) Etablissement : Lycée Jean Vilar - Plaisir
+                    <p className='font-secondary leading-tight mt-4'>
+                    <b>BTS SIO</b> option <b>SLAM</b> (Solution logiciels et applications métier) Etablissement : Lycée Jean Vilar - Plaisir
                     </p>
                   </div>
                   <motion.div
@@ -90,17 +68,17 @@ const Services = () => {
                     whileInView={"show"}
                     viewport={{once: false, amount: 0.3}}
                     className='flex flex-col flex-1 items-end'>
-                      <a href="#" className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
+                      <a href="https://www.onisep.fr/Ressources/univers-formation/Formations/Post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers" className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
                         <BsArrowUpRight />
                       </a>
-                      <a href="#" className='text-gradient text-sm'>En apprendre plus</a>
+                      <a href="https://www.onisep.fr/Ressources/univers-formation/Formations/Post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers" className='text-gradient text-sm'>En apprendre plus</a>
                     </motion.div>
                 </div>
                 {/** Stage */}
                 <div className='border-b border-white/20 h-[146px] mb-[38px] flex'>
                   <div className='max-w-[476px]'>
                     <h4 className='text-[20px tracking-wider font-primary font-semibold mb-6]'>Stages</h4>
-                    <p className='font-secondary leading-tight'>
+                    <p className='font-secondary leading-tight mt-4'>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe cumque natus ratione, facilis laudantium veritatis aut eius aperiam vel similique.
                     </p>
                   </div>
