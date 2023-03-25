@@ -9,6 +9,8 @@ import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 // variants
 import { fadeIn } from '../variants';
+// links
+import { Link } from 'react-scroll';
 
 const Banner = () => {
   return(
@@ -60,9 +62,19 @@ const Banner = () => {
             initial="hidden"
             whileInView={'show'}
             viewport={{once: false, amount : 0.7}}
-            className='flex max-w-max gap-x-6 items-center mb-12 mx-auto'>
-              <button className='btn btn-lg'>Me contacter</button>
+            className='flex ml-12 gap-x-8 items-center mb-12 mx-auto'>
+              <div className='mr-12'>
+                <Link to='contact' 
+                activeClass='active'
+                smooth = {true}
+                spy = {true}
+                className='cursor-pointer w-[80px] h-[60px] flex items-center justify-center'>
+                  <button className='btn btn-lg mr-12'>Me contacter</button>
+                </Link>
+              </div>
+              <div>
               <a href="#" className='text-gradient btn-link'>Mon Portfolio</a>
+              </div>  
             </motion.div>
               {/* Socials */}
               <motion.div
@@ -70,8 +82,8 @@ const Banner = () => {
               initial="hidden"
               whileInView={'show'}
               viewport={{once: false, amount : 0.7}}
-              className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-              <a href="#">
+              className='flex text-[30px] gap-x-6 max-w-max mx-auto lg:mx-0'>
+              <a href="https://github.com/MatthieuLthd">
                 <FaGithub />
               </a>
               <a href="#">

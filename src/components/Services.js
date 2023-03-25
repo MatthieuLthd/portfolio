@@ -11,19 +11,19 @@ const services = [
   {
     name:'Formation acquise',
     description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolor odit suscipit reprehenderit nemo quo et ducimus maxime ut?',
+    'Bac Général options NSI & Maths obtenu avec mention Bien Etablissement : Lycée Violet Le Duc - Villiers St-Fréderic',
     link: 'En apprendre plus',
   },
   {
     name:'Formation en cours',
     description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolor odit suscipit reprehenderit nemo quo et ducimus maxime ut?',
+    'BTS SIO option SLAM (Solution logiciels et applications métier) Etablissement : Lycée Jean Vilar - Plaisir',
     link: 'En apprendre plus',
   },
   {
     name:'Stages',
     description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolor odit suscipit reprehenderit nemo quo et ducimus maxime ut?',
+    '',
     link: 'En apprendre plus',
   }
 ]
@@ -42,7 +42,7 @@ const Services = () => {
           className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
             <h2 className='h2 text-accent mb-6'>Ce que je fais</h2>
             <h3 className='h3 max-w-[600px] mb-16'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quibusdam.
+              Retrouvez ici les mes formations passées ainsi que celles en cours et les stages que j'ai effectué 
             </h3>
             <button className='btn btn-sm'>Lorem, ipsum.</button>
           </motion.div>
@@ -55,19 +55,16 @@ const Services = () => {
           className='flex-1'>
             {/* services list*/}
             <div>
-              {services.map((service, index)=> {
-                const {name, description, link} = service;
-                return(
-                  <div 
-                  className='border-b border-white/20 h-[146px] mb-[38px] flex'
-                  key={index}>
-                    <div className='max-w-[476px]'>
-                      <h4 className='text-[20px tracking-wider font-primary font-semibold mb-6]'>{name}</h4>
-                      <p className='font-secondary leading-tight'>
-                        {description}
-                      </p>
-                    </div>
-                    <motion.div
+              <div>
+                {/** BAC */}
+                <div className='border-b border-white/20 h-[146px] mb-[38px] flex'>
+                  <div className='max-w-[476px]'>
+                    <h4 className='text-[20px tracking-wider font-primary font-semibold mb-6]'>Formation acquise</h4>
+                    <p className='font-secondary leading-tight'>
+                      Bac Général options NSI & Maths obtenu avec mention Bien Etablissement : Lycée Violet Le Duc - Villiers St-Fréderic
+                    </p>
+                  </div>
+                  <motion.div
                     variants={fadeIn('left', 0.8)}
                     initial="hidden"
                     whileInView={"show"}
@@ -76,11 +73,51 @@ const Services = () => {
                       <a href="#" className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
                         <BsArrowUpRight />
                       </a>
-                      <a href="#" className='text-gradient text-sm'>{link}</a>
+                      <a href="#" className='text-gradient text-sm'>En apprendre plus</a>
                     </motion.div>
+                </div>
+                {/** BTS */}
+                <div className='border-b border-white/20 h-[146px] mb-[38px] flex'>
+                  <div className='max-w-[476px]'>
+                    <h4 className='text-[20px tracking-wider font-primary font-semibold mb-6]'>Formation en cours</h4>
+                    <p className='font-secondary leading-tight'>
+                    BTS SIO option SLAM (Solution logiciels et applications métier) Etablissement : Lycée Jean Vilar - Plaisir
+                    </p>
                   </div>
-                );
-              })}
+                  <motion.div
+                    variants={fadeIn('left', 0.8)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{once: false, amount: 0.3}}
+                    className='flex flex-col flex-1 items-end'>
+                      <a href="#" className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
+                        <BsArrowUpRight />
+                      </a>
+                      <a href="#" className='text-gradient text-sm'>En apprendre plus</a>
+                    </motion.div>
+                </div>
+                {/** Stage */}
+                <div className='border-b border-white/20 h-[146px] mb-[38px] flex'>
+                  <div className='max-w-[476px]'>
+                    <h4 className='text-[20px tracking-wider font-primary font-semibold mb-6]'>Stages</h4>
+                    <p className='font-secondary leading-tight'>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe cumque natus ratione, facilis laudantium veritatis aut eius aperiam vel similique.
+                    </p>
+                  </div>
+                  <motion.div
+                    variants={fadeIn('left', 0.8)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{once: false, amount: 0.3}}
+                    className='flex flex-col flex-1 items-end'>
+                      <a href="#" className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
+                        <BsArrowUpRight />
+                      </a>
+                      <a href="#" className='text-gradient text-sm'>En apprendre plus</a>
+                    </motion.div>
+                </div>
+
+              </div>
             </div>
           </motion.div>
         </div>

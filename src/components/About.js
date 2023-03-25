@@ -64,17 +64,21 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className='flex gap-x-8 items-center'>
-            <button className='btn btn-lg'>Me contacter</button>
-            <Link to='contact' 
-            activeClass='active'
-            smooth = {true}
-            spy = {true}
-            className=''>
-            </Link>
-            <a href="https://docs.google.com/document/d/e/2PACX-1vSKlOb70NFdjQ3ZMs_Xwz46ApVSjCn2NwTc17gAgbJ6eDh-Cn4NZuBQDt1lezWY13X2pgtPy8ln7OXH/pub" className='text-gradient btn-link'>
-              Consulter mon CV
-            </a>
+          <div className='ml-12 flex gap-x-8 items-center'>
+          <div className='mr-12'>
+                <Link to='contact' 
+                activeClass='active'
+                smooth = {true}
+                spy = {true}
+                className='cursor-pointer w-[80px] h-[60px] flex items-center justify-center'>
+                  <button className='btn btn-lg mr-12'>Me contacter</button>
+                </Link>
+              </div>
+              <div>
+                <a href="https://docs.google.com/document/d/e/2PACX-1vSKlOb70NFdjQ3ZMs_Xwz46ApVSjCn2NwTc17gAgbJ6eDh-Cn4NZuBQDt1lezWY13X2pgtPy8ln7OXH/pub" className='text-gradient btn-link'>
+                  Consulter mon CV
+                </a>
+              </div>
           </div>
         </motion.div>
       </div>
