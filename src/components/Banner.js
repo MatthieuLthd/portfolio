@@ -86,7 +86,7 @@ const Banner = () => {
               <a href="https://github.com/MatthieuLthd">
                 <FaGithub />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/matthieu__leo/">
                 <FaInstagram />
               </a>
             </motion.div>
