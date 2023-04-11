@@ -11,7 +11,7 @@ const Header = () => {
           <embed src={Logo} alt='' width={150} height={150} />
         </a>
         {/* button */}
-        <button className='btn btn-sm'>Work with me</button>
+        
       </div>
     </div>
   </header>;

@@ -25,7 +25,7 @@ const Work = () => {
                   porjets.
                 </h2>
                 <p className='max-w-sm mb-16'>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit tempora facere odio accusamus aspernatur minima eius minus sed voluptatum corporis.
+                  Je mettrais les projets je j'ai réalisé ici, le premier étant en cours de réalisation.
                 </p>
                 <button className='btn btn-sm'>Consulter les autres projets</button>
               </div>

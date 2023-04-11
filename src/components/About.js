@@ -39,7 +39,7 @@ const About = () => {
             Je suis étudiant en BTS SIO option SLAM.
           </h3>
           <p className='mb-6'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero officiis officia fuga necessitatibus tempore excepturi alias dicta labore molestiae similique?
+            Ces statistiques vont évoluer avec le temps au fur et à mesure de mes études
           </p>
           {/* stats */}
           <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
@@ -55,7 +55,7 @@ const About = () => {
             </div>
             <div>
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                {inView ? <CountUp start={0} end={2} duration={2} /> : 
+                {inView ? <CountUp start={0} end={0} duration={2} /> : 
                 null}
               </div>
               <div className='font-primary text-sm tracking-[2px]'>

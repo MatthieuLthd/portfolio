@@ -2,7 +2,7 @@ import React from 'react';
 // images
 import Image from '../assets/avatarMoi.svg';
 // icons 
-import { FaGithub, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 // type animation
 import { TypeAnimation } from 'react-type-animation';
 // motion
@@ -55,7 +55,7 @@ const Banner = () => {
             whileInView={'show'}
             viewport={{once: false, amount : 0.7}}
             className='mb-8 max-w-lg mx-auto lg:mx-0'>
-              Nihil animante delectari amare honore vel redamare amare est amare qui ita remuneratione gloria.
+              Bienvenue sur mon portfolio ! Cliquez sur la barre de navigation pour vous déplacer directement dans les différentes rubriques.
             </motion.p>
             <motion.div
             variants={fadeIn('up', 0.6)}
@@ -88,6 +88,9 @@ const Banner = () => {
               </a>
               <a href="https://www.instagram.com/matthieu__leo/">
                 <FaInstagram />
+              </a>
+              <a href="https://www.linkedin.com/in/matthieu-l%C3%A9authaud-75b08a272/">
+                <FaLinkedin />
               </a>
             </motion.div>
           </div>

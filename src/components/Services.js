@@ -22,7 +22,7 @@ const Services = () => {
             <h3 className='h3 max-w-[600px] mb-16'>
               Retrouvez ici les mes formations passées ainsi que celles en cours et les stages que j'ai effectué 
             </h3>
-            <button className='btn btn-sm'>Lorem, ipsum.</button>
+            
           </motion.div>
           {/* services */}
           <motion.div 
@@ -48,10 +48,10 @@ const Services = () => {
                     whileInView={"show"}
                     viewport={{once: false, amount: 0.3}}
                     className='flex flex-col flex-1 items-end'>
-                      <a href="#" className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
+                      <a href="https://www.education.gouv.fr/reussir-au-lycee/la-specialite-numerique-et-sciences-informatiques-au-bac-325448#:~:text=La%20sp%C3%A9cialit%C3%A9%20NSI%20vous%20donne,le%20c%C5%93ur%20de%20votre%20m%C3%A9tier." className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
                         <BsArrowUpRight />
                       </a>
-                      <a href="#" className='text-gradient text-sm'>En apprendre plus</a>
+                      <a href="https://www.education.gouv.fr/reussir-au-lycee/la-specialite-numerique-et-sciences-informatiques-au-bac-325448#:~:text=La%20sp%C3%A9cialit%C3%A9%20NSI%20vous%20donne,le%20c%C5%93ur%20de%20votre%20m%C3%A9tier." className='text-gradient text-sm'>En apprendre plus</a>
                     </motion.div>
                 </div>
                 {/** BTS */}
@@ -79,7 +79,7 @@ const Services = () => {
                   <div className='max-w-[476px]'>
                     <h4 className='text-[20px tracking-wider font-primary font-semibold mb-6]'>Stages</h4>
                     <p className='font-secondary leading-tight mt-4'>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe cumque natus ratione, facilis laudantium veritatis aut eius aperiam vel similique.
+                      Ici va se trouver les stages que j'ai effectué lors de mes études supérieurs
                     </p>
                   </div>
                   <motion.div
