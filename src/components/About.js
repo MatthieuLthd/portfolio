@@ -55,7 +55,7 @@ const About = () => {
             </div>
             <div>
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                {inView ? <CountUp start={0} end={0} duration={2} /> : 
+                {inView ? <CountUp start={0} end={1} duration={2} /> : 
                 null}
               </div>
               <div className='font-primary text-sm tracking-[2px]'>
@@ -75,7 +75,7 @@ const About = () => {
                 </Link>
               </div>
               <div>
-                <a href="https://docs.google.com/document/d/e/2PACX-1vSKlOb70NFdjQ3ZMs_Xwz46ApVSjCn2NwTc17gAgbJ6eDh-Cn4NZuBQDt1lezWY13X2pgtPy8ln7OXH/pub" className='text-gradient btn-link'>
+                <a href="https://github.com/MatthieuLthd/portfolio/blob/main/public/Matthieu%20LEAUTHAUD%20CV%202023.pdf" className='text-gradient btn-link' attributes-list download>
                   Consulter mon CV
                 </a>
               </div>
