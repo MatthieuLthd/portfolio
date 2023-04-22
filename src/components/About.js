@@ -75,8 +75,8 @@ const About = () => {
                 </Link>
               </div>
               <div>
-                <a href="https://github.com/MatthieuLthd/portfolio/blob/main/public/Matthieu%20LEAUTHAUD%20CV%202023.pdf" className='text-gradient btn-link' attributes-list download>
-                  Consulter mon CV
+                <a href="Matthieu LEAUTHAUD CV 2023.pdf" className='text-gradient btn-link' download>
+                  Télécharger mon CV
                 </a>
               </div>
           </div>
