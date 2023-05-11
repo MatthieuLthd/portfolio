@@ -55,7 +55,7 @@ const Contact = () => {
                     Prénom :  <span>Matthieu</span>
                   </div>
                   <div className=' mb-12 text-[23px] h1 text-gradient btn-link'>
-                    Email : <span>matt.leauthaud@gmail.com</span>
+                    Email : <span>matthieuleauthaud@gmail.com</span>
                   </div>
                   <div className=' mb-12 text-[23px] h1 text-gradient btn-link'>
                     Téléphone : <span>07 . 81 . 70 . 55 . 77</span>
